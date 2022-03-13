@@ -1,0 +1,24 @@
+/* header sections */
+header{
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+}
+header h2{
+    font-weight: bold;
+}
+
+/* About us section */
+#aboutUs{
+    text-align: center;
+    font-size: small;
+}
+
+/* Services section */
+#services{
+    text-align: center;
+    font-size: small;
+}

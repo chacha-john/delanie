@@ -54,8 +54,9 @@ header p{
 /* Services section */
 #services{
     background-image: url("/assets/backgrounds/s_image.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
     margin-bottom: 4%;
     text-align: center;
@@ -66,6 +67,7 @@ header p{
 /* What we do section */
 #whatWeDo{
     margin: 5%;
+    margin-bottom: 0;
     
 }
 .cards{
@@ -118,4 +120,16 @@ input{
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     color: white !important;
+}
+
+/* Footer section*/
+footer img{
+    margin: 0 .5%;
+}
+.footer{
+    margin-top: 2%;
+}
+.footer p{
+    padding: 0;
+    margin: .8%;
 }

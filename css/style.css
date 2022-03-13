@@ -1,24 +1,89 @@
+/* General styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.col{
+    width: 20%;
+    padding: 1%;
+}
+p{
+    margin: 1%;
+}
+
 /* header sections */
 header{
-    background-image: url("");
+    background-image: url("/assets/backgrounds/h_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 10%;
+    padding: 12%;
+    color: white;
+    padding-bottom: 2%;
 }
 header h2{
     font-weight: bold;
 }
+header h1 span{
+    display: block;
+}
+#mouseClick{
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+header p{
+    font-size: small;
+}
 
 /* About us section */
 #aboutUs{
+    margin: 4%;
     text-align: center;
     font-size: small;
 }
 
 /* Services section */
 #services{
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 5%;
+    margin-bottom: 4%;
     text-align: center;
     font-size: small;
+    color: white;
 }
+
+/* What we do section */
+#whatWeDo{
+    margin: 5%;
+    
+}
+.cards{
+    padding: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    width: 30%;
+    display: block;
+}
+.showHide{
+    display: none;
+}
+.hideShow p{
+    padding: 0;
+    text-align: center;
+}
+
+/* Portfolio section */

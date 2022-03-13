@@ -87,6 +87,9 @@ header p{
     padding: 0;
     text-align: center;
 }
+.card p{
+    font-weight: 800;
+}
 
 /* Portfolio section */
 

@@ -48,7 +48,6 @@ header p{
 #aboutUs{
     margin: 4%;
     text-align: center;
-    font-size: small;
 }
 
 /* Services section */
@@ -60,7 +59,6 @@ header p{
     padding: 5%;
     margin-bottom: 4%;
     text-align: center;
-    font-size: small;
     color: white;
 }
 
@@ -145,4 +143,14 @@ footer img{
 }
 .white{
     border: white 2px solid;
+}
+#submit{
+    color: white;
+    text-align: center;
+    width: 15%;
+    background-color: gray;
+    height: 40px;
+    font-size: large;
+    padding: 0;
+    border-radius: 5px;
 }

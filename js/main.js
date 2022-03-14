@@ -23,7 +23,7 @@ card[1].addEventListener("click",(e)=>{
         text[1].style.display = "none"
     }
 })
-card[2].addEventListener("click",(e)=>{
+card[0].addEventListener("click",(e)=>{
     e.preventDefault()
     if(text[2].style.display == "none"){
         text[2].style.display = "block"

@@ -90,14 +90,26 @@ header p{
 }
 
 /* Portfolio section */
-.row img:hover{
-    
-    opacity: calc(30%);
-}
 .white img{
     width: 100%;
 }
-
+.row p{
+    display: none;
+}
+.white{
+    border: white 2px solid;
+}
+.des{
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    top: -60%;
+    font-size: xx-large;
+    margin: 5%;
+    height: 50%;
+    padding-top: 30%;
+    font-weight: 900;
+}
 
 /* Contact Us section */
 #contactUs{
@@ -112,9 +124,10 @@ textarea{
     color: white;
     position: relative;
     left: 25%;
+    width: 50%;
     margin: 1%;
     border: 1px solid white;
-    padding-left: 1%;
+    padding: 1%;
     text-align: left;
 }
 input{
@@ -125,6 +138,18 @@ input{
     padding-left: 1%;
     background-color: transparent;
     border: 1px solid white;
+    color: white;
+    height: 30px;
+}
+#submit{
+    color: white;
+    text-align: center;
+    width: 15%;
+    background-color: gray;
+    height: 40px;
+    font-size: large;
+    padding: 0;
+    border-radius: 5px;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     color: white !important;
@@ -140,17 +165,4 @@ footer img{
 .footer p{
     padding: 0;
     margin: .8%;
-}
-.white{
-    border: white 2px solid;
-}
-#submit{
-    color: white;
-    text-align: center;
-    width: 15%;
-    background-color: gray;
-    height: 40px;
-    font-size: large;
-    padding: 0;
-    border-radius: 5px;
 }

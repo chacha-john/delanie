@@ -1,6 +1,8 @@
 let card = document.querySelectorAll(".card")
 let image = document.querySelectorAll(".hideShow")
 let text = document.querySelectorAll(".showHide")
+let pictures = document.querySelectorAll(".white")
+let overlay = document.querySelectorAll(".des")
 card[0].addEventListener("click",(e)=>{
     e.preventDefault()
     if(text[0].style.display == "none"){
@@ -34,3 +36,11 @@ card[2].addEventListener("click",(e)=>{
         text[2].style.display = "none"
     }
 })
+for(let i = 0; i<=pictures.length;i++){
+    pictures[i].addEventListener("mouseover",(e)=>{
+        overlay[i].style.display = "block"
+    })
+    pictures[i].addEventListener("mouseout",(e)=>{
+        overlay[i].style.display = "none"
+    })
+}

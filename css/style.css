@@ -20,7 +20,7 @@ p{
 
 /* header sections */
 header{
-    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-image: url("../assets/backgrounds/h_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ header p{
 
 /* Services section */
 #services{
-    background-image: url("/assets/backgrounds/s_image.jpg");
+    background-image: url("../assets/backgrounds/s_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,6 +90,9 @@ header p{
 }
 
 /* Portfolio section */
+#portfolion{
+    margin-bottom: 0;
+}
 .white img{
     width: 100%;
 }
@@ -97,7 +100,8 @@ header p{
     display: none;
 }
 .white{
-    border: white 2px solid;
+    /* height: fit-content; */
+
 }
 .des{
     color: white;
@@ -113,7 +117,7 @@ header p{
 
 /* Contact Us section */
 #contactUs{
-    background-image: url("/assets/backgrounds/c_image.jpg");
+    background-image: url("../assets/backgrounds/c_image.jpg");
     padding: 3%;
     margin: 3%;
     color: white;

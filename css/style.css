@@ -92,6 +92,13 @@ header p{
 }
 
 /* Portfolio section */
+.row img:hover{
+    
+    opacity: calc(30%);
+}
+.white img{
+    width: 100%;
+}
 
 
 /* Contact Us section */
@@ -135,4 +142,7 @@ footer img{
 .footer p{
     padding: 0;
     margin: .8%;
+}
+.white{
+    border: white 2px solid;
 }

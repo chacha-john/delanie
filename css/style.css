@@ -99,10 +99,6 @@ header p{
 .row p{
     display: none;
 }
-.white{
-    /* height: fit-content; */
-
-}
 .des{
     color: white;
     border: 2px solid white;
@@ -169,4 +165,34 @@ footer img{
 .footer p{
     padding: 0;
     margin: .8%;
+}
+@media screen and (max-width: 500px){
+    /* What We Do session */
+    .cards{
+        display: block;
+        width: 100%;
+
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 5%;
+        padding: 2%;
+        margin;
+    }
+
+    /* Portfolio Section */
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .col{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    #portfolio h2 {
+        margin-bottom: 2%;
+    }
+
 }

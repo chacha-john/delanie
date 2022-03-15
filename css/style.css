@@ -216,4 +216,17 @@ footer img{
         left: 35%;
     }
 
+    /* Socials Section */
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-self: center;
+    }
+    footer img{
+        width: 50%;
+        margin: 5%;
+        align-self: center;
+    }
+
 }

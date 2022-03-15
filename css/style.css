@@ -181,7 +181,6 @@ footer img{
 
     /* Portfolio Section */
     .row{
-        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -192,6 +191,16 @@ footer img{
     }
     #portfolio h2 {
         margin-bottom: 2%;
+    }
+    .des{
+        color: peru;
+        border: 2px solid burlywood;
+        position: relative;
+        top: 20%;
+        font-size: large;
+        margin: 0% 5%;
+        height: 10%;
+        padding: 10%;
     }
 
     /* Contact Us Section */

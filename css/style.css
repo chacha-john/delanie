@@ -177,7 +177,6 @@ footer img{
         width: 100%;
         margin-bottom: 5%;
         padding: 2%;
-        margin;
     }
 
     /* Portfolio Section */
@@ -193,6 +192,28 @@ footer img{
     }
     #portfolio h2 {
         margin-bottom: 2%;
+    }
+
+    /* Contact Us Section */
+    #contactUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    input, textarea{
+        width: 80%;
+        align-items: center;
+        margin: 5%;
+        position: relative;
+        left: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    #submit{
+        width: 30%;
+        display: block;
+        position: relative;
+        left: 35%;
     }
 
 }
